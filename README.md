@@ -31,5 +31,5 @@ python app.py
 - `requirements.txt` - Dependencies required for running the project.
 
 ## Model Deployment
-The model is deployed on Hugging Face and can be accessed here: [Phi-2 Fine-Tuned Model](https://huggingface.co/soureesh1211/finetuned-phi2)
+The model is deployed on Hugging Face and can be accessed here: [Phi-2 Fine-Tuned]([https://huggingface.co/soureesh1211/finetuned-phi2](https://huggingface.co/spaces/soureesh1211/finetuned-phi2-chatbot))
 
