@@ -7,8 +7,8 @@
 </head>
 <body>
 
-<h1 align="center">🚀 Fine-Tuned Phi-2 LoRA Chatbot</h1>
-<p align="center">
+<h1 align="left">Fine-Tuned Phi-2 LoRA Chatbot</h1>
+<p align="left">
     A fine-tuned <strong>LoRA adapter</strong> for <strong>Microsoft Phi-2</strong>, optimized for efficiency and performance.<br>
     Lightweight, memory-efficient, and designed for reasoning, STEM, and natural language tasks.
 </p>
@@ -19,9 +19,9 @@
 <p>
 This project fine-tunes <strong>Microsoft's Phi-2</strong> using <strong>LoRA (Low-Rank Adaptation)</strong>, a parameter-efficient fine-tuning method that allows for adapting the model with minimal computational overhead. The LoRA adapter is applied at runtime, keeping the <strong>base model frozen</strong> while modifying only a small number of trainable parameters. This leads to:
 <ul>
-    <li>💡 <strong>Memory Efficiency</strong> - Only small adapters are updated instead of the full model.</li>
-    <li>⚡ <strong>Faster Training & Inference</strong> - LoRA reduces fine-tuning time and keeps the model lightweight.</li>
-    <li>🔍 <strong>Specialized Task Adaptation</strong> - The model retains general knowledge from Phi-2 but enhances performance in target areas.</li>
+    <li> <strong>Memory Efficiency</strong> - Only small adapters are updated instead of the full model.</li>
+    <li> <strong>Faster Training & Inference</strong> - LoRA reduces fine-tuning time and keeps the model lightweight.</li>
+    <li> <strong>Specialized Task Adaptation</strong> - The model retains general knowledge from Phi-2 but enhances performance in target areas.</li>
 </ul>
 </p>
 
