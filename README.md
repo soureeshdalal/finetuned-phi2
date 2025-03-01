@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fine-Tuned Phi-2 Model</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; padding: 20px; background-color: #f9f9f9; color: #333; }
         h1, h2 { color: #4A90E2; }
-        code { background-color: #f4f4f4; padding: 3px; border-radius: 4px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        code { background-color: #f4f4f4; padding: 3px 5px; border-radius: 4px; font-family: monospace; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: monospace; }
+        a { color: #0073e6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
