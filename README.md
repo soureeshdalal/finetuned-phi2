@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 </head>
 <body>
 
@@ -19,9 +18,9 @@
 <p>
 This project fine-tunes <strong>Microsoft's Phi-2</strong> using <strong>LoRA (Low-Rank Adaptation)</strong>, a parameter-efficient fine-tuning method that allows for adapting the model with minimal computational overhead. The LoRA adapter is applied at runtime, keeping the <strong>base model frozen</strong> while modifying only a small number of trainable parameters. This leads to:
 <ul>
-    <li> <strong>Memory Efficiency</strong> - Only small adapters are updated instead of the full model.</li>
-    <li> <strong>Faster Training & Inference</strong> - LoRA reduces fine-tuning time and keeps the model lightweight.</li>
-    <li> <strong>Specialized Task Adaptation</strong> - The model retains general knowledge from Phi-2 but enhances performance in target areas.</li>
+    <li><strong>Memory Efficiency</strong> - Only small adapters are updated instead of the full model.</li>
+    <li><strong>Faster Training & Inference</strong> - LoRA reduces fine-tuning time and keeps the model lightweight.</li>
+    <li><strong>Specialized Task Adaptation</strong> - The model retains general knowledge from Phi-2 but enhances performance in target areas.</li>
 </ul>
 </p>
 
@@ -108,7 +107,7 @@ print("Response:", response)
 
 ---
 
-<h2>🖥️ Running the Chatbot</h2>
+<h2> Running the Chatbot</h2>
 <p>A <strong>Gradio-based chatbot</strong> has been deployed for easy interaction with the fine-tuned model.</p>
 
 <h3>1. Clone the Repository</h3>
@@ -129,15 +128,10 @@ python app.py
 
 ---
 
-<h2>Hugging Face Model & Space</h2>
+<h2> Hugging Face Model & Space</h2>
 <ul>
     <li><strong>Fine-Tuned Model:</strong> <a href="https://huggingface.co/soureesh1211/finetuned-phi2">soureesh1211/finetuned-phi2</a></li>
     <li><strong>Live Chatbot:</strong> <a href="https://huggingface.co/spaces/soureesh1211/finetuned-phi2-chatbot">Hugging Face Space</a></li>
 </ul>
 
 ---
-
-
-
-</body>
-</html>
