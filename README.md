@@ -1,56 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fine-Tuned Phi-2 Model</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; padding: 20px; background-color: #f9f9f9; color: #333; }
-        h1, h2 { color: #4A90E2; }
-        code { background-color: #f4f4f4; padding: 3px 5px; border-radius: 4px; font-family: monospace; }
-        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: monospace; }
-        a { color: #0073e6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>💬 Fine-Tuned Phi-2 Model</h1>
-    <p>This project fine-tunes <strong>Microsoft's Phi-2</strong> model using <strong>LoRA (Low-Rank Adaptation)</strong> to enhance its performance while maintaining efficiency. The model is deployed using <strong>Gradio</strong> for an interactive chatbot interface.</p>
-    
-    <h2>🚀 Model Details</h2>
-    <ul>
-        <li><strong>Base Model:</strong> <code>microsoft/phi-2</code></li>
-        <li><strong>Fine-Tuned Model:</strong> <a href="https://huggingface.co/soureesh1211/finetuned-phi2">soureesh1211/finetuned-phi2</a></li>
-        <li><strong>Fine-Tuning Technique:</strong> LoRA (Low-Rank Adaptation)</li>
-        <li><strong>Frameworks Used:</strong> <code>Hugging Face Transformers</code>, <code>PEFT</code>, <code>Gradio</code></li>
-    </ul>
-    
-    <h2>📌 Features</h2>
-    <ul>
-        <li>LoRA-based fine-tuning for parameter-efficient training.</li>
-        <li>Optimized for conversational AI and chatbot applications.</li>
-        <li>Lightweight and efficient deployment using <strong>Gradio</strong>.</li>
-        <li>Supports <strong>FP16</strong> for better performance.</li>
-    </ul>
-    
-    <h2>🛠️ Installation</h2>
-    <pre><code>pip install -r requirements.txt</code></pre>
-    
-    <h2>📜 Usage</h2>
-    <p>Run the chatbot using:</p>
-    <pre><code>python app.py</code></pre>
-    
-    <h2>📂 Project Files</h2>
-    <ul>
-        <li><code>app.py</code> - Gradio-based chatbot implementation.</li>
-        <li><code>finetune_phi2.ipynb</code> - Fine-tuning script for the model.</li>
-        <li><code>requirements.txt</code> - Dependencies required for running the project.</li>
-    </ul>
-    
-    <h2>🌐 Model Deployment</h2>
-    <p>The model is deployed on Hugging Face and can be accessed here: <a href="https://huggingface.co/soureesh1211/finetuned-phi2">Phi-2 Fine-Tuned Model</a></p>
-    
-    <h2>📜 License</h2>
-    <p>This project is released under the <strong>Apache-2.0</strong> license.</p>
-</body>
-</html>
+# 💬 Fine-Tuned Phi-2 Model
+
+This project fine-tunes **Microsoft's Phi-2** model using **LoRA (Low-Rank Adaptation)** to enhance its performance while maintaining efficiency. The model is deployed using **Gradio** for an interactive chatbot interface.
+
+## 🚀 Model Details
+- **Base Model:** `microsoft/phi-2`
+- **Fine-Tuned Model:** [soureesh1211/finetuned-phi2](https://huggingface.co/soureesh1211/finetuned-phi2)
+- **Fine-Tuning Technique:** LoRA (Low-Rank Adaptation)
+- **Frameworks Used:** `Hugging Face Transformers`, `PEFT`, `Gradio`
+
+## 📌 Features
+- LoRA-based fine-tuning for parameter-efficient training.
+- Optimized for conversational AI and chatbot applications.
+- Lightweight and efficient deployment using **Gradio**.
+- Supports **FP16** for better performance.
+
+## 🛠️ Installation
+```bash
+pip install -r requirements.txt
+```
+
+## 📜 Usage
+Run the chatbot using:
+```bash
+python app.py
+```
+
+## 📂 Project Files
+- `app.py` - Gradio-based chatbot implementation.
+- `finetune_phi2.ipynb` - Fine-tuning script for the model.
+- `requirements.txt` - Dependencies required for running the project.
+
+## 🌐 Model Deployment
+The model is deployed on Hugging Face and can be accessed here: [Phi-2 Fine-Tuned Model](https://huggingface.co/soureesh1211/finetuned-phi2)
+
+## 📜 License
+This project is released under the **Apache-2.0** license.
