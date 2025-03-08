@@ -1,5 +1,11 @@
 # 💬 Fine-Tuned Phi-2 Model
 
+  <p align="left">
+  <a href="https://huggingface.co/spaces/soureesh1211/finetuned-phi2-chatbot">
+    <img src="https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg" alt="Open in Spaces">
+  </a>
+</p>
+
 This project fine-tunes **Microsoft's Phi-2** model using **LoRA (Low-Rank Adaptation)** to enhance its performance while maintaining efficiency. The model is deployed using **Gradio** for an interactive chatbot interface.
 
 ## Model Details
